@@ -1,0 +1,405 @@
+/**
+ * @Main css for Import Vehicle
+ * @project     - Import Vehicle
+ * @author      - Ayanuk Pty Ltd.
+ * @created_by  - K.M Foysal
+ * @created_at  - 30.12.2024
+ * @modified_by - 
+ */
+
+/* reset, root */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden !important;
+}
+
+:root {
+  --white: #fff;
+  --dark1: #001b44;
+  --dark2: #4b5768;
+  --dark3: #5d6878;
+  --dark4: #8e97a6;
+  --dark5: #b7bcc3;
+  --info: #219fff;
+  --info-light: #e2f3ff;
+  --success: #17bd8d;
+  --success-light: #d7fff3;
+  --warning: #ffa114;
+  --warning-light: #fff0da;
+  --danger: #ff4e3e;
+  --danger-light: #ffebe9;
+}
+
+/* reset, root - END */
+.container {
+  margin: 0 auto;
+  max-width: 1500px !important;
+  width: 100%;
+  padding: 0 15px;
+}
+
+@media (min-width: 992px) and (max-width: 1600px) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+
+/* Utility Class  */
+
+.fs-56 {
+  font-size: 56px;
+}
+
+.fs-44 {
+  font-size: 44px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.clr-white {
+  color: var(--white);
+}
+
+.clr-dark1 {
+  color: var(--dark1);
+}
+
+.clr-dark2 {
+  color: var(--dark2);
+}
+
+.clr-dark3 {
+  color: var(--dark3);
+}
+
+.clr-dark4 {
+  color: var(--dark4);
+}
+
+.clr-dark5 {
+  color: var(--dark5);
+}
+
+.clr-info {
+  color: var(--info);
+}
+
+.clr-info-light {
+  color: var(--info-light);
+}
+
+.clr-success {
+  color: var(--success);
+}
+
+.clr-success-light {
+  color: var(--success-light);
+}
+
+.clr-warning {
+  color: var(--warning);
+}
+
+.clr-warning-light {
+  color: var(--warning-light);
+}
+
+.clr-danger {
+  color: var(--danger);
+}
+
+.clr-danger-light {
+  color: var(--danger-light);
+}
+
+.bg-white {
+  background-color: var(--white);
+}
+
+.bg-info {
+  background-color: var(--info);
+}
+
+.bg-info-light {
+  background-color: var(--info-light);
+}
+
+.bg-success {
+  background-color: var(--success);
+}
+
+.bg-success-light {
+  background-color: var(--success-light);
+}
+
+.bg-warning {
+  background-color: var(--warning);
+}
+
+.bg-warning-light {
+  background-color: var(--warning-light);
+}
+
+.bg-danger {
+  background-color: var(--danger);
+}
+
+.bg-danger-light {
+  background-color: var(--danger-light);
+}
+
+.m-0 {
+  margin: 0px !important;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-40 {
+  margin-top: 40px;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.py-80 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-0 {
+  border: none !important;
+}
+
+.radius-8 {
+  border-radius: 8px;
+}
+
+.radius-12 {
+  border-radius: 12px;
+}
+
+.radius-16 {
+  border-radius: 16px;
+}
+
+.rounded {
+  border-radius: 100px;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-28 {
+  line-height: 28px;
+}
+
+.lh-32 {
+  line-height: 32px;
+}
+
+.lh-36 {
+  line-height: 36px;
+}
+
+.lh-40 {
+  line-height: 40px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.ellipsis-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Common CSS  */
